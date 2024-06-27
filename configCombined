@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+module load R/4.2.1-foss-2022a
+
+
+homeDir="/lustre/home/sww208/USProject"
+prefix='Combined'
+clocksDir="${homeDir}/2_PCClocks/PC-Clocks/"
+SD=5
+formattedData="${homeDir}/1_RawData/${prefix}.RData"
+agePredClocks="${homeDIr}/4_Results/PCClockAge${prefix}.txt"
+agePlot="${homeDIr}/4_Results/AgePlot${prefix}.pdf"
+smokingPred="${homeDIr}/4_Results/smokingPred${prefix}"
+
